@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jarvis - Asistente (prototipo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Jarvis (Prototipo)</h1>
+
+    <div class="controls">
+      <label>API Key (opcional, pega tu OpenAI key para respuestas avanzadas):</label>
+      <input id="apiKey" type="password" placeholder="sk-... (opcional)" />
+      <button id="connectApi">Conectar</button>
+      <div class="small">Si pegas tu clave, las peticiones se harán desde tu navegador (tu clave no sale del navegador).</div>
+    </div>
+
+    <div class="panel">
+      <div id="chat" class="chat"></div>
+
+      <div class="inputRow">
+        <input id="userInput" placeholder="Escribe un comando o presiona 'Escuchar'" />
+        <button id="send">Enviar</button>
+        <button id="listen">Escuchar</button>
+      </div>
+
+      <div class="footer">
+        <label><input type="checkbox" id="autoSpeak" checked /> Respuestas en voz</label>
+        <span id="status"></span>
+      </div>
+    </div>
+
+    <footer>
+      <small>Prototipo: usa la Web Speech API para reconocimiento y síntesis. Para integración con LLMs pega tu propia key (opcional).</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

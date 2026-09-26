@@ -1,0 +1,17 @@
+body{font-family:Inter,Segoe UI,Roboto,Arial;background:#0b0f1a;color:#e6eef8;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.container{width:720px;max-width:95%;}
+h1{text-align:center;color:#7be0b1}
+.panel{background:#071025;padding:16px;border-radius:10px;border:1px solid rgba(123,224,177,0.08);}
+.controls{margin-bottom:12px}
+.controls input{width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #123;background:#071022;color:#e6eef8}
+.small{font-size:12px;color:#9fb0c6;margin-top:6px}
+.chat{height:320px;overflow:auto;padding:8px;border-radius:6px;background:linear-gradient(180deg,#031024 0%,#08142a 100%);border:1px solid rgba(255,255,255,0.03)}
+.message{margin:6px 0;padding:8px;border-radius:8px;max-width:85%}
+.user{background:#113;align-self:flex-end;color:#dfffe6;margin-left:auto}
+.bot{background:#071a2b;color:#dff2ff}
+.inputRow{display:flex;gap:8px;margin-top:8px}
+.inputRow input{flex:1;padding:10px;border-radius:8px;border:1px solid #123;background:#061020;color:#e6eef8}
+.inputRow button{padding:10px 12px;border-radius:8px;border:none;background:#1aa39b;color:#012;cursor:pointer}
+.footer{display:flex;justify-content:space-between;align-items:center;margin-top:8px;color:#9fb0c6}
+#status{font-size:13px}
+footer{margin-top:10px;text-align:center;color:#7b99b1}
